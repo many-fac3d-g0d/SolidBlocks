@@ -204,7 +204,7 @@
 
             // Using %0D%0A for line breaks (Carriage Return)(Line Feed)
 
-            const formBody = "Name : "+myForm['name'].value+" | %0D%0A "+"Quantity : "+myForm['quantity'].value+" | %0D%0A"+"Type : "+myForm['type'].value+" | %0D%0A"+"Phone no : "+myForm['phone'].value+" | %0D%0A"+"Message : "+myForm['message'].value+" | %0D%0A %0D%0A %0D%0A %0D%0A Order placed from mcg.local.lt"
+            const formBody = "Name : "+myForm['name'].value+" | %0D%0A "+"Quantity : "+myForm['quantity'].value+" | %0D%0A"+"Type : "+myForm['type'].value+" | %0D%0A"+"Phone no : "+myForm['phone'].value+" | %0D%0A"+"Message : "+myForm['message'].value+" | %0D%0A %0D%0A %0D%0A %0D%0A Order placed from mcg-solid.netlify.app"
             console.log("Submit Form",formBody);
             window.location.href = `mailto:n.deepak18@gmail.com?subject=Order&body=${formBody}`;
         });
